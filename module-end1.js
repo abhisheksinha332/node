@@ -1,0 +1,13 @@
+const naming = require('./name1');
+const names = require('./name2');
+// import naming from './name1.js';
+const data = require('./module');
+console.log(naming);
+ console.log(data);
+console.log(data.obj[1]);
+const j = data.name;
+//const js = j.JSON();
+console.log(j);
+names('Sinha');
+names(naming.abhi);
+names(naming.kaushal);
